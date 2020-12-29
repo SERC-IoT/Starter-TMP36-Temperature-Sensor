@@ -1,7 +1,6 @@
-# Arduino Uno and -- -- Sensor
+# Arduino Uno and TMP36 Temperature Sensor
 
-<!-- #TODO add sensor and circuit diagrams -->
-Setup instructions and starter code for using the -- -- sensor and an Arduino development board.
+Setup instructions and starter code for using the TMP36 temperature sensor and an Arduino development board.
 
 <br />
 
@@ -23,17 +22,17 @@ Setup instructions for an Arduino Uno board is below. For MKR WiFi 1010 based se
 ## Circuit Diagram
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/...)
+![circuit diagram](assets/uno-tmp36-sensor-circuit-diagram_schem.svg)
 
 #### Components Needed
-* 
+* TMP36 temperature sensor
 * connecting wires
 * arduino uno development board
 
 
 <br />
 
-![breadboard diagram](assets/...)
+![breadboard diagram](assets/uno-tmp36-sensor-circuit-diagram_bb.svg)
 
 <br />
 
@@ -43,6 +42,7 @@ Wire the components as shown in the diagram.
 | --- | --- | --- |
 | 5V | +5V | Vdd |
 | GND | GND | GND |
+| A0 | Analogue Input | Vout |
 |  |  |  |
 
 ![pin diagram](assets/Pinout-UNOrev3_latest.png)
