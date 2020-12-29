@@ -9,7 +9,7 @@ Setup instructions and starter code for using the TMP36 temperature sensor and a
 | File/Folder | Description |
 |--- | --- |
 | [arduino/](arduino/) | Arduino projects folder |
-| [arduino/sketch/sketch.ino](arduino/sketch/sketch.ino) | Simple arduino sketch. |
+| [arduino/tmp36-temperature-sensor/tmp36-temperature-sensor.ino](arduino/tmp36-temperature-sensor/tmp36-temperature-sensor.ino) | Simple arduino sketch. |
 | [mkr-wifi-1010-setup.md](mkr-wifi-1010-setup.md) | Setup instructions for using an Arduino MKR WiFi 1010 dev board. |
 |  |  |
 
@@ -53,8 +53,7 @@ Wire the components as shown in the diagram.
 
 The sketch will work with many different types and chipset of board. To use an Arduino Uno, make sure to select the correct board in Boards Manager.
 
-<!-- #TODO add library info -->
-The arduino sketches require the -- -- libraries. They are included in the root additional-libraries folder. Afternatively, they can be downloaded through the Arduino libraries manager or from -- --
+The arduino sketch does not require any external libraries.
 
 ## References
 

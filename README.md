@@ -39,7 +39,6 @@ Setup instructions and starter code for different development boards
 
 | File/Folder | Description |
 |--- | --- |
-| additional-libraries | Folder contains libraries needed for Arduino sketches. They are included as submodules. Use either `git clone --recursive` or `git submodule init` after cloning. |
 | [docs/TMP35_36_37.pdf](docs/TMP35_36_37.pdf) | Data sheet for sensor |
 |  |  |
 
