@@ -5,9 +5,9 @@ name: Arduino Sketch Compiles
 # Trigger workflow when post-install-setup.sh changes
 on:
   push:
-    branches: [ main ]
-    # paths:
-    #   - 'arduino-uno/arduino/**'
+    # branches: [ main ]
+    paths:
+      - 'arduino-uno/arduino/**'
 
 #
 jobs:

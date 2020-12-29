@@ -1,5 +1,7 @@
 # Arduino Uno and TMP36 Temperature Sensor
 
+![Arduino Sketch Compiles](https://github.com/SERC-IoT/Starter-TMP36-Temperature-Sensor/workflows/Arduino%20Sketch%20Compiles/badge.svg)
+
 Setup instructions and starter code for using the TMP36 temperature sensor and an Arduino development board.
 
 <br />
