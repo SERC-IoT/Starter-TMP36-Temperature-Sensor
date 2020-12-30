@@ -29,8 +29,8 @@ Setup instructions and starter code for different development boards
 | Arduino Nano 33 BLE | For Nano 33 BLE follow instructions for Arduino Uno [arduino-uno/](arduino-uno/) |
 | ESP32 | [esp32/](esp32/) |
 | ESP8266 | [esp8266/](esp8266/) |
-| Jetson Nano | For Jetson Nano, follow instructions for Raspberry Pi [raspberry-pi/](raspberry-pi/) |
-| Raspberry Pi | [raspberry-pi/](raspberry-pi/) |
+| Jetson Nano | For Jetson Nano, see Raspberry Pi |
+| Raspberry Pi | The Raspberry Pi has no analogue inputs and can not directly use this sensor. |
 |  |  |
 
 <br />
