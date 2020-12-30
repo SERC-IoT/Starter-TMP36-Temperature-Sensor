@@ -8,12 +8,16 @@
  */
 
 //TMP36 Pin Variables
-int sensorPin = 0; //the analog pin the TMP36's Vout (sense) pin is connected to
+int sensorPin = A0; // the analog pin the TMP36's Vout (sense) pin is connected to
+                    // for ESP32, use pin 34
 
-// Voltage supplied to TMP36 and voltage used for ARef
+// ARef or voltage range of board's ADC. Some calibration may be required,
+// particularly for ESP8266 or ESP32 boards.
 // For 5v arduino, use 5.0
 // For 3.3v arduino, use 3.3
-float boardVoltage = 3.3;
+// For D1 mini, use between approx 3.03 to 3.2
+// For Lolin32, use between approx 1.0 to 1.08
+float aRef = 3.3;
 
 void setup()
 {
@@ -28,7 +32,7 @@ void loop()
   int reading = analogRead(sensorPin);
 
   // convert that reading to voltage
-  float voltage = reading * boardVoltage / 1024.0;
+  float voltage = reading * aRef / 1024.0;
 
   // print out the voltage
   Serial.print(voltage); Serial.println(" volts");
