@@ -1,6 +1,22 @@
-# Setup for ESP32 dev board
+# ESP32 and TMP36 Temperature Sensor
 
 Setup instructions for an ESP32 based development board, like the Lolin D32 or Lolin32 Lite.
+
+<br />
+
+## Files and Folders
+
+| File/Folder | Description |
+|--- | --- |
+| arduino | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
+| [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
+|  |  |
+
+<br />
+
+## Setup
+
+Setup instructions for a Lolin32 Lite are below.
 
 ## Circuit Diagram
 Wire the components as shown in the diagram.
@@ -29,6 +45,8 @@ Wire the components as shown in the diagram.
 | 34 | GPI 34 |  | Vout |
 
 ![pin diagram](assets/Lolin32_pinout03.png)
+
+ESP32s have several analogue inputs which can be independantly configured to measure different voltage ranges and different bit depths. Pins 34 and 35 are input only.
 
 Further details and other board pin out diagrams can be found here: https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
 

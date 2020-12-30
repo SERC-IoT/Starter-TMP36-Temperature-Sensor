@@ -16,7 +16,7 @@ Code for getting started with TMP36 temperature sensor and an ESP8266 developmen
 
 ## Setup
 
-Setup instructions for a WeMos D1 mini are below. For ESP32 based setup instructions see [esp32-setup.md](esp32-setup.md).
+Setup instructions for a WeMos D1 mini are below.
 
 ## Circuit Diagram
 
