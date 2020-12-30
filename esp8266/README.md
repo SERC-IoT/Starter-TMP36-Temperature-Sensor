@@ -48,6 +48,8 @@ Wire the components as shown in the diagram.
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)
 
+ESP8266s have a single analogue input, which can measure voltages in the range 0-1V at 10 bit depth. The WeMos D1 mini has a voltage divider on the A0 input which gives an effective voltage measurement range of 0V to ~3.2V.
+
 Further details and other board pin out diagrams can be found here: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
 <br />
