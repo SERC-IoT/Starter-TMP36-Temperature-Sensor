@@ -1,7 +1,6 @@
-# ESP8266 and -- -- Sensor
+# ESP8266 and TMP36 Temperature Sensor
 
-<!-- #TODO add sensor and circuit diagrams -->
-Code for getting started with -- -- sensor and an ESP8266 development board.
+Code for getting started with TMP36 temperature sensor and an ESP8266 development board.
 
 <br />
 
@@ -23,17 +22,17 @@ Setup instructions for a WeMos D1 mini are below. For ESP32 based setup instruct
 
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/esp8266-starter-circuit-diagram_schem.svg)
+![circuit diagram](assets/esp8266-tmp36-sensor-circuit-diagram_schem.svg)
 
 #### Components Needed
 
-* 
+* TMP36 temperature sensor
 * connecting wires
 * esp8266 device
 
 <br />
 
-![breadboard diagram](assets/esp8266-starter-circuit-diagram_bb.svg)
+![breadboard diagram](assets/esp8266-tmp36-sensor-circuit-diagram_bb.png)
 
 <br />
 
@@ -44,6 +43,7 @@ Wire the components as shown in the diagram.
 |  |  |  |  |
 | 1 | +3.3V |  | Vdd |
 | 6 | GND |  | GND |
+| A0 | Analogue Input |  | Vout |
 |  |  |  |  |
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)
