@@ -8,7 +8,7 @@ Code for getting started with TMP36 temperature sensor and an ESP8266 developmen
 
 | File/Folder | Description |
 |--- | --- |
-| [arduino/](arduino/) | folder for arduino sketches. // For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
+| arduino | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
 |  |  |
 
@@ -56,8 +56,7 @@ Further details and other board pin out diagrams can be found here: https://rand
 
 The sketch will work with many different types and chipset of board. To use an ESP8266 board with Arduino IDE, you will need to install the relevant board configuration files. Follow the instructions here: https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 
-<!-- #TODO add library info -->
-The arduino sketches require the -- -- libraries. They are included in the root additional-libraries folder. Afternatively, they can be downloaded through the Arduino libraries manager or from -- --
+The arduino sketch does not require any external libraries.
 
 <br />
 
