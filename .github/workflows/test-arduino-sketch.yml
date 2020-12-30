@@ -2,7 +2,7 @@
 
 name: Arduino Sketch Compiles
 
-# Trigger workflow when post-install-setup.sh changes
+# Trigger workflow when arduino sketch changes
 on:
   push:
     # branches: [ main ]
