@@ -10,6 +10,7 @@ Setup instructions for an ESP32 based development board, like the Lolin D32 or L
 |--- | --- |
 | arduino | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
+| [micropython/read_temperature.py](micropython/read_temperature.py) | MicroPython script that reads the temperature value from the sensor and prints it to the REPL. |
 |  |  |
 
 <br />
@@ -62,8 +63,7 @@ The arduino sketch does not require any external libraries.
 
 ## MicroPython
 
-<!-- #TODO add library info -->
-MicroPython already has drivers for -- devices baked in.
+No additional libraries are needed for micropython.
 
 <br />
 

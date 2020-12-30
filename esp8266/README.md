@@ -10,6 +10,7 @@ Code for getting started with TMP36 temperature sensor and an ESP8266 developmen
 |--- | --- |
 | arduino | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
+| [micropython/read_temperature.py](micropython/read_temperature.py) | MicroPython script that reads the temperature value from the sensor and prints it to the REPL. |
 |  |  |
 
 <br />
@@ -64,8 +65,7 @@ The arduino sketch does not require any external libraries.
 
 ## MicroPython
 
-<!-- #TODO add library info -->
-MicroPython already has drivers for -- devices baked in.
+No additional libraries are needed for micropython.
 
 <br />
 
