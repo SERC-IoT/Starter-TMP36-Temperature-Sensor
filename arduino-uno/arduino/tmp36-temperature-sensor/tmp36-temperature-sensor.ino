@@ -23,6 +23,11 @@ void setup()
 {
   Serial.begin(9600);  //Start the serial connection with the computer
                        //to view the result open the serial monitor
+
+  // wait until serial port opens
+  while (! Serial) {
+    delay(1);
+  }
 }
 
 void loop()
