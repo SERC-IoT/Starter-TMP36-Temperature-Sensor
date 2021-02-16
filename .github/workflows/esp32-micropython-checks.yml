@@ -3,10 +3,11 @@
 name: ESP32 MicroPython Checks
 
 on:
-  # Trigger workflow when micropython code changes
+  # Trigger workflow when micropython code changes or workflow file changes
   push:
     # branches: [ main ]
     paths:
+      - '.github/workflows/esp32-micropython-checks.yml'
       - 'esp32/micropython/**'
 
   # Allows you to run this workflow manually from the Actions tab
