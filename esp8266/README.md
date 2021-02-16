@@ -1,5 +1,7 @@
 # ESP8266 and TMP36 Temperature Sensor
 
+![MicroPython Checks](../../../workflows/ESP8266%20MicroPython%20Checks/badge.svg) ![Pylint score](../../../blob/badges/.github/badges/esp8266micropythonpylint.svg)
+
 Code for getting started with TMP36 temperature sensor and an ESP8266 development board.
 
 <br />

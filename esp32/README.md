@@ -1,5 +1,7 @@
 # ESP32 and TMP36 Temperature Sensor
 
+![MicroPython Checks](../../../workflows/ESP32%20MicroPython%20Checks/badge.svg) ![Pylint score](../../../blob/badges/.github/badges/esp32micropythonpylint.svg)
+
 Setup instructions for an ESP32 based development board, like the Lolin D32 or Lolin32 Lite.
 
 <br />
