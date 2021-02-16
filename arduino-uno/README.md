@@ -40,12 +40,12 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-| 5V | +5V | Vdd |
-| GND | GND | GND |
-| A0 | Analogue Input | Vout |
-|  |  |  |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| 5V | +5V |  | Vdd |
+| GND | GND |  | GND |
+| A0 | Analogue Input |  | Vout |
+|  |  |  |  |
 
 ![pin diagram](assets/Pinout-UNOrev3_latest.png)
 

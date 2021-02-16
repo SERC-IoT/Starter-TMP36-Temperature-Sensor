@@ -1,6 +1,5 @@
 # Setup for MKR WiFi 1010 dev board
 
-<!-- #TODO add circuit diagrams and library info -->
 Setup instructions for an Arduino MKR WiFi 1010 development board.
 
 ## Circuit Diagram
@@ -21,12 +20,11 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-| VCC | +3.3V | Vdd |
-| GND | GND | GND |
-| A0 | Analogue Input | Vout |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| VCC | +3.3V |  | Vdd |
+| GND | GND |  | GND |
+| A0 | Analogue Input |  | Vout |
 |  |  |  |
 
 ![pin diagram](assets/Pinout-MKRwifi1010_latest.png)

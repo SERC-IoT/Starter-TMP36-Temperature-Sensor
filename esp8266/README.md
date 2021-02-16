@@ -41,7 +41,6 @@ Wire the components as shown in the diagram.
 
 | Pin No | Function |  | Device Connection |
 | --- | --- | --- | --- |
-|  |  |  |  |
 | 1 | +3.3V |  | Vdd |
 | 6 | GND |  | GND |
 | A0 | Analogue Input |  | Vout |
