@@ -71,7 +71,7 @@ jobs:
           submodules: recursive
       
       - name: check libraries pulled
-        run: ls -a additional-libraries
+        run: mkdir -p additional-libraries && ls -a additional-libraries
 
       # install arduino cli
       - name: Install Arduino CLI
